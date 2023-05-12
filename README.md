@@ -60,6 +60,8 @@ yarn
 
 3. set the environment variables [How to get your Discord SALAI_TOKEN:](https://www.androidauthority.com/get-discord-token-3149920/)
 
+SALAI_TOKEN就是请求`https://discord.com/api/v9/interactions`抓包，请求头中的`authorization`，CHANNEL_ID在请求体中可以找到。  
+
 ```bash
 export SALAI_TOKEN=xxxxxxxx
 export SERVER_ID=xxxxxxxx
