@@ -50,7 +50,7 @@ git clone https://github.com/erictik/midjourney-ui.git
 cd midjourney-ui
 ```
 
-2. install dependencies
+2. 安装依赖/install dependencies 
 
 ```bash
 npm install
@@ -62,7 +62,7 @@ or
 yarn
 ```
 
-3. set the environment variables [How to get your Discord SALAI_TOKEN:](https://www.androidauthority.com/get-discord-token-3149920/)
+3. 设置环境变量/set the environment variables [How to get your Discord SALAI_TOKEN:](https://www.androidauthority.com/get-discord-token-3149920/)
 
 SALAI_TOKEN就是请求`https://discord.com/api/v9/interactions`抓包，请求头中的`authorization`，CHANNEL_ID在请求体中可以找到。  
 
@@ -80,7 +80,7 @@ set CHANNEL_ID=11041111113207
 set SESSION_ID=b1111111111113
 ```
 
-4. run the development server
+4. 运行开发版服务/run the development server
 
 ```bash
 npm run dev
@@ -93,6 +93,8 @@ yarn dev
 ```
 
 5. open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+看cmd日志，会打印运行的IP 端口，浏览器访问即可。
 
 ## Route map
 
