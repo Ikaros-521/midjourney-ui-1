@@ -25,6 +25,10 @@ Host your own live version of Midjourney UI with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ferictik%2Fmidjourney-ui)
 
+在`settings/environment-variables`这，配置你的环境变量  
+![image](https://github.com/Ikaros-521/midjourney-ui-1/assets/40910637/f688f967-54a4-41bc-a6ea-629e141280dd)
+
+
 #### Docker
 
 ```bash
@@ -66,6 +70,14 @@ SALAI_TOKEN就是请求`https://discord.com/api/v9/interactions`抓包，请求�
 export SALAI_TOKEN=xxxxxxxx
 export SERVER_ID=xxxxxxxx
 export CHANNEL_ID=xxxxxxxx
+```
+
+如果你是win，请在运行cmd或powershell后，使用set命令设置环境  
+```
+set SALAI_TOKEN=xxxx.xxxxxxxxx
+set SERVER_ID=110111111204
+set CHANNEL_ID=11041111113207
+set SESSION_ID=b1111111111113
 ```
 
 4. run the development server
