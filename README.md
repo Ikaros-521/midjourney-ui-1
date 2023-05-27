@@ -25,6 +25,10 @@ Host your own live version of Midjourney UI with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ferictik%2Fmidjourney-ui)
 
+![image](https://github.com/Ikaros-521/midjourney-ui-1/assets/40910637/cc80c517-a203-43fa-b8a6-8c5b12a7a6dd)
+![image](https://github.com/Ikaros-521/midjourney-ui-1/assets/40910637/c66cea0c-302f-4e11-903e-9af6d52624a1)
+
+
 在`settings/environment-variables`这，配置你的环境变量  
 ![image](https://github.com/Ikaros-521/midjourney-ui-1/assets/40910637/f688f967-54a4-41bc-a6ea-629e141280dd)
 
