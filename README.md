@@ -64,13 +64,15 @@ yarn
 
 3. 设置环境变量/set the environment variables [How to get your Discord SALAI_TOKEN:](https://www.androidauthority.com/get-discord-token-3149920/)
 
-SALAI_TOKEN就是请求`https://discord.com/api/v9/interactions`抓包，请求头中的`authorization`，CHANNEL_ID在请求体中可以找到。  
+SALAI_TOKEN就是请求`https://discord.com/api/v9/interactions`抓包，请求头中的`authorization`，CHANNEL_ID在请求体中可以找到。
+![image](https://github.com/Ikaros-521/midjourney-ui-1/assets/40910637/2aa0d935-26c6-4aaa-ae4d-2a8a8589d343)
 
 ```bash
 export SALAI_TOKEN=xxxxxxxx
 export SERVER_ID=xxxxxxxx
 export CHANNEL_ID=xxxxxxxx
 ```
+
 
 如果你是win，请在运行cmd或powershell后，使用set命令设置环境  
 ```
